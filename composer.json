@@ -1,0 +1,22 @@
+{
+    "name": "adrija/studentcrud",
+    "description": "Simple Student CRUD Package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Adrija\\StudentCrud\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Adrija\\StudentCrud\\StudentCrudServiceProvider"
+            ]
+        }
+    },
+     "require": {
+        "php": "^8.0",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    }
+}
